@@ -1,0 +1,51 @@
+#ctr{
+  background-color:white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  -webkit-transition:all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 10000;
+}
+.carga{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: giro 2s linear infinite;
+  -o-animation: giro 2s linear infinite;
+  animation: giro 2s linear infinite;
+}
+@keyframes giro{
+ 0%{border-top:5px solid #292525;
+    border-top-style: double;}
+ 30%{border-left:5px solid #5835c3;
+     border-left-style: double;}
+      60%{border-bottom:5px solid #f1f0f0;
+     border-bottom-style: double;}
+      90%{border-right:5px solid #2f2f2e;
+     border-right-style: double;}
+     0%{border-top:5px solid #5835c3;
+    border-top-style: double;}
+}
+.buscar{
+  margin-top: 5%;
+  margin-left:30px;
+  margin-bottom: 25px;
+  width: 40%;
+  height: 30px;
+  border: solid red;
+  border-radius: 25px;
+  inline: none;
+}
+.icono{
+  width: 15px;
+  height: 15px;

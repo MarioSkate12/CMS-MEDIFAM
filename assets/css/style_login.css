@@ -1,0 +1,73 @@
+@font-face {
+   font-family: "chimuelo";
+   src: url("../fonts/chimuelo.ttf");
+}
+
+input {
+	outline: none;
+	border: none;
+	height: 50px;
+	width: 100%;
+	font-family: "chimuelo";
+    background-color: transparent;
+	border-bottom: 1px solid black;
+
+	 
+
+}
+body{
+background-color: #4cffee;
+}
+
+.casilla {
+ font-family: "chimuelo";
+ width: 27%;
+ padding: 80px;
+ border-radius: 15px;
+ background: #ffffffd9;
+margin-top: 20px;
+margin-left: 20px;
+transition: 2s;
+
+
+}
+.Ingresar {
+border: 2px solid black;
+cursor: pointer;
+background-color: #2196F3;
+color: white;
+font-family: "chimuelo";
+font-size: 14px;
+border-radius: 20px;
+width: 50%;
+transition: 1.5s;
+margin-top: 30px;
+}
+.Ingresar:hover{
+border: 2px solid black;
+background-color: white;
+color: black;
+transition: 1.5s;
+}
+select {
+outline: none;
+border: none;
+height: 50px;
+width: 100%;
+background-color: transparent;
+border-bottom: 1px solid black;
+	 
+}
+h2 {
+font-family: "chimuelo";
+font-size: 30px;
+transition: 1.5s;
+
+}
+.registrar{
+margin-top: 20px;
+font-family: "chimuelo";
+font-size: 20px;
+color: black;
+
+}
